@@ -19,14 +19,14 @@
 <div data-role="page" id="login-page">
     	<div class="title">不倒翁</div>
 
-    	<div class="form-row"><input type="text" placeholder="请输入手机号"/></div>
-    	<div class="form-row"><input type="password" placeholder="请输入密码"/></div>
+    	<div class="form-row"><input type="text" placeholder="请输入手机号" id="login-phone"/></div>
+    	<div class="form-row"><input type="password" placeholder="请输入密码" id="login-password"/></div>
 
     	<div class="form-button">
     		<button class="login-btn">登录</button>
     	</div>
     	<div class="form-button">
-    		<button class="find-btn">找回密码</button>
+    		<button class="find-btn" id="find-password">找回密码</button>
     	</div>
 </div>
 <!-- login end -->
@@ -63,31 +63,31 @@
         <div class="form-body">
             <div class="realname">
                 <label>姓名</label>
-                <div class="input"><input type="text"/></div>
+                <div class="input"><input type="text" id="basic-name"/></div>
             </div>
             <div class="gender">
                 <label>性别</label>
                 <div class="input">
                     <fieldset data-role="controlgroup" data-type="horizontal">
-                      <input type="radio" name="gender" id="radio-choice-1" value="choice-1" checked="checked">
-                      <label for="radio-choice-1">男</label>
+                      <input type="radio" name="gender" id="gender-1" value="男" checked="checked">
+                      <label for="gender-1">男</label>
                      
-                      <input type="radio" name="gender" id="radio-choice-2" value="choice-2">
-                      <label for="radio-choice-2">女</label>
+                      <input type="radio" name="gender" id="gender-2" value="女">
+                      <label for="gender-2">女</label>
                     </fieldset>
                 </div>
             </div>
             <div class="dob">
                 <label>生日</label>
-                <div class="input"><input type="text" placeholder="YYYY-MM-DD"/></div>
+                <div class="input"><input type="text" placeholder="YYYY-MM-DD" id="basic-dob"/></div>
             </div>
             <div class="phone">
                 <label>电话</label>
-                <div class="input"><input type="text" placeholder="子女的手机号码"/></div>
+                <div class="input"><input type="text" placeholder="子女的手机号码" id="basic-phone"/></div>
             </div>
         </div>
         <div class="form-button">
-            <button class="start-btn">开始</button>
+            <button class="start-btn" id="basic-start">开始</button>
         </div>
 </div>
 <!-- basic end -->
@@ -188,5 +188,48 @@
         </div>
 </div>
 <!-- radio end -->
+<!-- review start -->
+<div data-role="page" id="review-page">
+ <div class="topbar">
+            <div class="lefttools"><a href="#start-page" data-transition="slide" data-direction="reverse">&lt; 退出档案</a></div>
+            <div class="title">Review</div>
+            <div class="righttools">提交</div>
+        </div>
+ 
+        <div class="review-item">
+            <div class="shadow-box">
+                <div class="review-title"><span class="gridIcon"></span>疾病情况</div>
+                <div class="review-problem">您目前有什么疾病？<span class="penIcon"></span></div>
+                <div class="review-answer">慢性支气管炎，急性腐蚀性胃炎，偏头痛，消化性溃疡，神经衰弱，抑郁性神经症，支气管发育不全，脊椎结核，肺血管炎</div>
+            </div>
+        </div>
+
+          <div class="review-item">
+            <div class="shadow-box">
+                <div class="review-title"><span class="gridIcon"></span>疾病情况</div>
+                <div class="review-problem">您目前有什么疾病？<span class="penIcon"></span></div>
+                <div class="review-answer">慢性支气管炎，急性腐蚀性胃炎，偏头痛，消化性溃疡，神经衰弱，抑郁性神经症，支气管发育不全，脊椎结核，肺血管炎</div>
+            </div>
+        </div>
+          <div class="review-item">
+            <div class="shadow-box">
+                <div class="review-title"><span class="gridIcon"></span>疾病情况</div>
+                <div class="review-problem">您目前有什么疾病？<span class="penIcon"></span></div>
+                <div class="review-answer">慢性支气管炎，急性腐蚀性胃炎，偏头痛，消化性溃疡，神经衰弱，抑郁性神经症，支气管发育不全，脊椎结核，肺血管炎</div>
+            </div>
+        </div>
+          <div class="review-item">
+            <div class="shadow-box">
+                <div class="review-title"><span class="gridIcon"></span>疾病情况</div>
+                <div class="review-problem">您目前有什么疾病？<span class="penIcon"></span></div>
+                <div class="review-answer">慢性支气管炎，急性腐蚀性胃炎，偏头痛，消化性溃疡，神经衰弱，抑郁性神经症，支气管发育不全，脊椎结核，肺血管炎</div>
+            </div>
+        </div>
+        
+        <div class="form-button">
+            <button class="submit-btn">提交</button>
+        </div>
+</div>
+<!-- review end -->
     </body>
 </html>

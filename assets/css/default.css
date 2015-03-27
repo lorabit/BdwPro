@@ -17,6 +17,7 @@ body{margin: 0px;padding:0px;}
         .topbar a,.topbar a:visited{color:#FFF;text-decoration: none;}
         .topbar .title{text-align: center;font-size:17px;}
         .topbar .lefttools{font-size: 15px;padding-left:10px;}
+        .topbar .righttools{font-size: 15px;padding-right:10px;text-align: right;}
 
         .summary{overflow:auto;background: #e4e7ea;border-bottom: 1px solid #d3d7db;padding:15px;font-size:18px;}
         .summary span{font-size: 12px;color:#7a8895;display: block;margin-top:5px;}
@@ -140,3 +141,15 @@ fieldset{padding:0rem;margin:0rem!important;}
 .radio .ui-radio input{display: none;}
 #radio-page .next-btn{background: #2dcb74;margin-top:8.0rem;}
 /*radio page end*/
+
+/*review page start*/
+#review-page{background: #efeff4;}
+#review-page .submit-btn{background: #2dcb74;margin-top:20px;}
+.review-item{width:100%;float:left;padding:10px 10px 0px 10px;}
+.review-title{border-bottom:1px solid #efeff4;padding-left:10px;font-size:14px;color:#7a8895;height:30px;line-height:30px;position: relative;;}
+.gridIcon{width:12px;height:12px;background: url(../images/gridIcon.png);display: inline-block;top:5px;background-size: cover;margin-right:10px;}
+.penIcon{width:15px;height:16px;background: url(../images/penIcon.png);display: inline-block;top:5px;background-size: cover;right:10px;top:13px;position: absolute;;}
+.review-item .shadow-box{background: #ffffff;box-shadow: 2px;border-radius: 5px;}
+.review-problem{line-height:23px;font-size:17px;color:#000;padding:10px;border-bottom:1px solid #efeff4;position: relative;;}
+.review-answer{background-size: #f7f7f9;padding:10px;font-size:12px;color:#37414b;line-height:15px;}
+/*review page end*/
