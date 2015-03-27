@@ -24,8 +24,9 @@ body{margin: 0px;padding:0px;}
 
 .problem{padding:15px;font-size:18px;}
 .problem span{font-size: 12px;color:#7a8895;display: block;margin-top:5;}
+
         .form-button{width:100%;float:left;}
-fieldset{padding:0px;margin:0px!important;}
+fieldset{padding:0rem;margin:0rem!important;}
 /*common end*/
 
 /*start page start*/
@@ -41,6 +42,7 @@ fieldset{padding:0px;margin:0px!important;}
 .form-button {text-align: center;}
 .form-button button{width:80%;border-radius: 10px;font-size:15px;text-align: center;border:none;color:#FFF;height:50px;}
 .start-btn{background: #2dcb74;margin-top:10px;}
+
 
 /*start page end*/
 
@@ -88,6 +90,7 @@ fieldset{padding:0px;margin:0px!important;}
             height:28px;
             border-radius: 28px;
             top:-2.5px;
+
 			background-color: 			#f6f6f6 /*{a-bup-background-color}*/;
 			border-color:	 		#ddd /*{a-bup-border}*/;
         }
@@ -99,9 +102,9 @@ fieldset{padding:0px;margin:0px!important;}
 	border-radius: 						.3125em /*{global-radii-buttons}*/;
 }
 .slider .ui-shadow {
-	-webkit-box-shadow: 0 1px 3px /*{global-box-shadow-size}*/ 		rgba(0,0,0,.15) /*{global-box-shadow-color}*/;
-	-moz-box-shadow: 0 1px 3px /*{global-box-shadow-size}*/ 		rgba(0,0,0,.15) /*{global-box-shadow-color}*/;
-	box-shadow: 0 1px 3px /*{global-box-shadow-size}*/ 				rgba(0,0,0,.15) /*{global-box-shadow-color}*/;
+	-webkit-box-shadow: 0 0.1rem 0.3rem /*{global-box-shadow-size}*/ 		rgba(0,0,0,.15) /*{global-box-shadow-color}*/;
+	-moz-box-shadow: 0 0.1rem 0.3rem /*{global-box-shadow-size}*/ 		rgba(0,0,0,.15) /*{global-box-shadow-color}*/;
+	box-shadow: 0 0.1rem 0.3rem /*{global-box-shadow-size}*/ 				rgba(0,0,0,.15) /*{global-box-shadow-color}*/;
 }
 
 
@@ -135,5 +138,5 @@ fieldset{padding:0px;margin:0px!important;}
 .radio .ui-radio>label.ui-radio-on:after{background: #179ef8;}
 .radio .ui-radio>label.ui-radio-on{color:#179ef8;}
 .radio .ui-radio input{display: none;}
-#radio-page .next-btn{background: #2dcb74;margin-top:80px;}
+#radio-page .next-btn{background: #2dcb74;margin-top:8.0rem;}
 /*radio page end*/
