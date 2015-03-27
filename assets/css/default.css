@@ -18,7 +18,7 @@ body{margin: 0px;padding:0px;}
         .topbar .title{text-align: center;font-size:17px;}
         .topbar .lefttools{font-size: 15px;padding-left:10px;}
 
-        .summary{overflow:auto;background: #e4e7ea;border-bottom: 1px solid #d3d7db;padding:15px;font-size:36px;}
+        .summary{overflow:auto;background: #e4e7ea;border-bottom: 1px solid #d3d7db;padding:15px;font-size:18px;}
         .summary span{font-size: 12px;color:#7a8895;display: block;margin-top:5px;}
 
 
