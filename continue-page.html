@@ -1,0 +1,89 @@
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, user-scalable=no">
+    <title></title>
+    <style type="text/css">
+        *{font-family: 'STHeiti';font-weight: 100;}
+        body{margin:0px;padding:0px;background: url(assets/images/background.png);background-size: cover;}
+        .topbar{
+            height:100px;
+            border-bottom:1px solid #252e36;line-height:100px;
+        }
+        .topbar>*{width:33.33%;float:left;height:100%;}
+        .topbar .title{text-align: center;color:#FFF;font-size:34px;}
+
+        .welcome{font-size:60px;color:#FFF;text-align: center;margin-top:20%;}
+        .welcome span{color:#179ef8;}
+
+        .subStart{font-size: 28px;color:#7a8895;text-align: center;margin-top:10%;}
+        .subNew{font-size: 28px;color:#7a8895;text-align: center;margin-top:10%;}
+
+        .form-button {text-align: center;}
+        .form-button button{width:80%;border-radius: 20px;font-size:30px;text-align: center;border:none;color:#FFF;height:100px;}
+        .start-btn{background: #179ef8;margin-top:20px;}
+        .new-btn{background: #2dcb74;margin-top:20px;}
+        .form-foot{
+            width: 100%;
+            height: 30%;
+            background-color:#fff;
+            position: fixed;
+            bottom: 0px;
+            margin-bottom: 0;
+        }
+
+        .progress{
+            font-size: 28px; text-align: center; margin-top:15%; width: 80%;
+        }
+
+        .progress-bar{
+            background-color:#f0c40d;
+            width:80%;
+            margin:12px auto 0 auto;
+            height: 32px;
+            border-radius: 18px;
+        }
+        .progress .progress-bar-left{
+            left: 0px;
+            font-size: 28px;
+            color:#7a8895;
+            text-line:left;
+        }
+
+        .progress .progress-bar-right{
+            right: 0;
+            font-size: 28px;
+            color:#7a8895;
+            text-line:right;
+        }
+    </style>
+</head>
+<body>
+<div class="topbar">
+    <div class="lefttools"></div>
+    <div class="title">首页</div>
+    <div class="righttools"></div>
+</div>
+<div class="welcome">谢亚南</div>
+
+<div class="subStart">上次数据已保存,您可以继续该项目</div>
+
+<div class="form-button">
+    <button class="start-btn">继续该项目</button>
+</div>
+
+<div class="progress">
+    <span class="progress-bar-left">已完成72%</span><span class="progress-bar-right">剩余16道题</span>
+    <div class="progress-bar"></div>
+</div>
+
+<div class="form-foot">
+    <div class="form-button" >
+        <div class="subNew">或者放弃该数据，新建一个项目</div>
+        <button class="new-btn">建立新项目</button>
+    </div>
+</div>
+
+</body>
+</html>
